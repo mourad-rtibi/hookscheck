@@ -2,7 +2,7 @@ import {useState,useEffect} from 'react';
 import AddMovie from "../AddMovie/AddMovie.js";
 import "./app.css";
 import MovieList from '../MovieList/MovieList.js';
-import Filtring from '../Filtring/Filtring.js';
+import Filtring from '../Filtring/Filting.js';
 
 const info = [
   { title:'Chernobyl', img:'/image/Chernobyl.jpg', description:"The events recount the circumstances of the explosion of the Chernobyl nuclear reactor in April 1986 in the Soviet Socialist Union, which became one of the worst human disasters in the twentieth century.", posterURL:"www.chernobyl.com", rating:9.4 },
